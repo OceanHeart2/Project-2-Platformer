@@ -1,0 +1,32 @@
+.background    { background-image: url("Images/Cloud.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 0, 0); }
+.wall          { background: rgb(218,165,32);  }
+.floater       { background: rgb(255, 255, 255); }
+.portal        { background: rgb(178, 169, 169); }
+
+
+
+
+.actor  { position: absolute;  }
+.coin {background-image: url("Images/Coins.png");
+background-size: 12px 12px;}
+.thing {background-image: url("Images/3d-red-star-animation7.gif");
+background-size: 20px 20px;}
+.player { background-image: url("Images/Rainbow Cloud.gif");
+background-size: 30px 30px;}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
